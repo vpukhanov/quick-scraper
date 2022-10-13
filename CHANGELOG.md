@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/vpukhanov/quick-scraper/compare/v1.7.0...v1.7.1) (2022-10-13)
+
+
+### Bug Fixes
+
+* collect all custom attributes ([9773942](https://github.com/vpukhanov/quick-scraper/commit/97739428cebfa3ec8068e4bf7d70e61d0f6f302c))
+
 # [1.7.0](https://github.com/spa5k/quick-scraper/compare/v1.6.0...v1.7.0) (2021-12-12)
 
 
