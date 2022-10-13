@@ -4,7 +4,7 @@
   "version": "1.7.0",
   "author": "Unbuttun <unbuttun@gmail.com>",
   "bugs": {
-    "url": "https://github.com/spa5k/quick-scraper/issues"
+    "url": "https://github.com/vpukhanov/quick-scraper/issues"
   },
   "commitlint": {
     "extends": [
@@ -59,7 +59,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/spa5k/quick-scraper#readme",
+  "homepage": "https://github.com/vpukhanov/quick-scraper#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pnpm format && pnpm lint",
@@ -80,7 +80,7 @@
   "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spa5k/quick-scraper.git"
+    "url": "git+https://github.com/vpukhanov/quick-scraper.git"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production tsup-node",
