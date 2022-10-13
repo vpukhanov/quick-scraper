@@ -42,14 +42,16 @@ export const selectorExtractor = ({
 
   if (attrs) {
     const keys = Object.keys(attrs);
+    const customAttributes: Record<string, string> = {};
     keys.forEach((key) => {
       const attribute = data.attr(key);
       if (key && attribute) {
-        output.customAttributes = {
-          [key]: attribute,
-        };
+        customAttributes[key] = attribute;
       }
     });
+    if (Object.keys(customAttributes).length > 0) {
+      output.customAttributes = customAttributes;
+    }
   }
 
   if (!text) {
